@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Joshua Chamberlain">
+        <link rel="icon" href="IMG/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="index.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.9.0/css/all.css'>
+        <title>WebPiano: The Web Based Piano</title>
+</head>
+
+<body>
+        <article>
+                <h1>WebPiano:</h1>
+                <p>An attempt at trying to make a piano in a webpage. I don't know the piano so it isn't tone accurate,
+                        this is just a fun little project playing with audio.</p>
+        </article>
+        <div id="WebPiano">
+                <div id="Black">
+                        <div class="BlackKey BK1">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK1.1').play()">D♭<audio id="BK1.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK1.2').play()">C#<audio id="BK1.2"
+                                                        src="Audio/CSharp3.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK2">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK2.1').play()">E♭<audio id="BK1.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK2.2').play()">D#<audio id="BK1.2"
+                                                        src="Audio/DSharp3.mp3"></audio></div>
+                                        <!-- This key doesn't work -->
+                                </div>
+                        </div>
+                        <div class="BlackKey BK3">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK3.1').play()">G♭<audio id="BK3.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK3.2').play()">F#<audio id="BK3.2"
+                                                        src="Audio/FSharp3.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK4">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK4.1').play()">A♭<audio id="BK4.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK4.2').play()">G#<audio id="BK4.2"
+                                                        src="Audio/GSharp3.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK5">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK5.1').play()">B♭<audio id="BK1.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK5.2').play()">A#<audio id="BK1.2"
+                                                        src="Audio/ASharp3.mp3"></audio></div>
+                                        <!-- This key doesn't work -->
+                                </div>
+                        </div>
+                        <div class="BlackKey BK6">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK6.1').play()">D♭<audio id="BK6.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK6.2').play()">C#<audio id="BK6.2"
+                                                        src="Audio/CSharp4.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK7">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK7.1').play()">E♭<audio id="BK7.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK7.2').play()">D#<audio id="BK7.2"
+                                                        src="Audio/DSharp4.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK8">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK8.1').play()">G♭<audio id="BK8.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK8.2').play()">F#<audio id="BK8.2"
+                                                        src="Audio/FSharp4.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK9">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK9.1').play()">A♭<audio id="BK9.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK9.2').play()">G#<audio id="BK9.2"
+                                                        src="Audio/GSharp4.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK10">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK10.1').play()">B♭<audio id="BK10.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK10.2').play()">A#<audio id="BK10.2"
+                                                        src="Audio/ASharp4.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK11">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK11.1').play()">D♭<audio id="BK11.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK11.2').play()">C#<audio id="BK11.2"
+                                                        src="Audio/CSharp5.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK12">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK12.1').play()">E♭<audio id="BK12.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK12.2').play()">D#<audio id="BK12.2"
+                                                        src="Audio/DSharp5.mp3"></audio></div>
+                                </div>
+                        </div>
+                        <div class="BlackKey BK13">
+                                <div style="position: absolute; width: 4%;">
+                                        <div onclick="document.getElementById('BK13.1').play()">G♭<audio id="BK13.1"
+                                                        src=""></audio></div>
+                                        <div onclick="document.getElementById('BK13.2').play()">F#<audio id="BK13.2"
+                                                        src="Audio/FSharp5.mp3"></audio></div>
+                                </div>
+                        </div>
+                </div>
+                <div onclick="document.getElementById('PK1').play()" class="WhiteKey">
+                        <div>C</div><audio id="PK1" src="Audio/C3.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK2').play()" class="WhiteKey">
+                        <div>D</div><audio id="PK2" src="Audio/D3.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK3').play()" class="WhiteKey">
+                        <div>E</div><audio id="PK3" src="Audio/E3.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK4').play()" class="WhiteKey">
+                        <div>F</div><audio id="PK4" src="Audio/F3.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK5').play()" class="WhiteKey">
+                        <div>G</div><audio id="PK5" src="Audio/G3.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK6').play()" class="WhiteKey">
+                        <div>A</div><audio id="PK6" src="Audio/A3.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK7').play()" class="WhiteKey">
+                        <div>B</div><audio id="PK7" src="Audio/B3.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK8').play()" class="WhiteKey">
+                        <div>C</div><audio id="PK8" src="Audio/C4.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK9').play()" class="WhiteKey">
+                        <div>D</div><audio id="PK9" src="Audio/D4.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK10').play()" class="WhiteKey">
+                        <div>E</div><audio id="PK10" src="Audio/E4.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK11').play()" class="WhiteKey">
+                        <div>F</div><audio id="PK11" src="Audio/FSharp4.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK12').play()" class="WhiteKey">
+                        <div>G</div><audio id="PK12" src="Audio/G4.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK13').play()" class="WhiteKey">
+                        <div>A</div><audio id="Pk13" src="Audio/A4.mp3"></audio><!-- This key doesn't work -->
+                </div>
+                <div onclick="document.getElementById('PK14').play()" class="WhiteKey">
+                        <div>B</div><audio id="PK14" src="Audio/B4.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK15').play()" class="WhiteKey">
+                        <div>C</div><audio id="Pk15" src="Audio/C5.mp3"></audio><!-- This key doesn't work -->
+                </div>
+                <div onclick="document.getElementById('PK16').play()" class="WhiteKey">
+                        <div>D</div><audio id="PK16" src="Audio/D5.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK17').play()" class="WhiteKey">
+                        <div>E</div><audio id="PK17" src="Audio/E5.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK18').play()" class="WhiteKey">
+                        <div>F</div><audio id="PK18" src="Audio/F5.mp3"></audio>
+                </div>
+                <div onclick="document.getElementById('PK19').play()" class="WhiteKey End-Key">
+                        <div>G</div><audio id="PK19" src="Audio/G5.mp3"></audio>
+                </div>
+        </div><br><br>
+        <script src='index.js'></script>
+</body>
+
+</html>
