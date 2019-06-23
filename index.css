@@ -3,10 +3,15 @@ body {
 }
 
 article {
-    width: 100%;
+    width: 80%;
     text-align: center;
-    margin: 0px 0px 40px 0px;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0px;
     font-family: cambria;
+}
+
+article b {
+    color: #ff0000;
 }
 
 #WebPiano {
@@ -25,10 +30,12 @@ article {
     border-right: 2px solid #000000;
     display: inline-block;
     text-align: center;
+    cursor: -webkit-grab; cursor: grab;
 }
 
 .WhiteKey:active {
     background-color: #dbdbdb;
+    cursor: -webkit-grabbing; cursor: grabbing;
 }
 
 .WhiteKey div {
@@ -62,6 +69,7 @@ article {
     height: 100%;
     display: inline-block;
     background-color: #000000;
+    cursor: -webkit-grab; cursor: grab;
 }
 
 .BlackKey div div {
@@ -77,6 +85,7 @@ article {
 
 .BlackKey div div:active {
     background-color: #444444;
+    cursor: -webkit-grabbing; cursor: grabbing;
 }
 
 .BK2, .BK4, .BK6, .BK7, .BK9, .BK12 {
